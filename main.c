@@ -1,6 +1,12 @@
-#include <stdlib.h>
+#include <stdio.h>
 
 int main() {
-    system("cmd /k ping google.com");
+    int number;
+
+    printf("Enter a number: ");
+    scanf("%d", &number);
+
+    printf("Square: %d\n", number * number);
+
     return 0;
 }
